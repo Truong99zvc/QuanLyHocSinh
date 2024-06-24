@@ -167,7 +167,7 @@ const MainLayout = (props) => {
             </Route>
           </Switch>
         </Content>
-        <Footer style={{ textAlign: "center" }}>T9 Team ©2020 </Footer>
+        <Footer style={{ textAlign: "center" }}>Team 8 ©2024 </Footer>
       </Layout>
     </Layout>
   );

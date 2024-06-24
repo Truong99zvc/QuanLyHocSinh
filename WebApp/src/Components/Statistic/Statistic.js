@@ -58,9 +58,9 @@ const Statistic = (props) => {
             <Descriptions.Item label="Subject">
               {statisticData.pSubject}
             </Descriptions.Item>
-            <Descriptions.Item label="Semester">HK2 - 2020</Descriptions.Item>
+            <Descriptions.Item label="Semester">HK2 - 2024</Descriptions.Item>
             <Descriptions.Item label="Lecture" span={1}>
-              Mr. Nguyen Cong Hoan
+              Mr. Do Thanh Son
             </Descriptions.Item>
             <Descriptions.Item label="Status" span={2}>
               <Badge status="success" text="Running" />

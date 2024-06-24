@@ -80,6 +80,7 @@ const columnsOfStudentDetails = [
 //   });
 // }
 
+
 // Map of changed row to push
 
 const StudentScoresTable = (props) => {

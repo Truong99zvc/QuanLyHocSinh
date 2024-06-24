@@ -56,3 +56,5 @@ Not supports in Firefox and IE */
     
     
 }
+
+iframe#webpack-dev-server-client-overlay{ display:none!important }

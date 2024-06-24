@@ -22,9 +22,9 @@ const SubjectsBar = (props) => {
         <div id="classinfo-details">
             <div id="classinfo-info">
                 <TextTranslation textName="ClassInfo-TopBar-Class.1"/>  : {props.classCode} <br/>
-                <TextTranslation textName="ClassInfo-TopBar-Teacher.1"/>  : Nguyen Thi Thanh B<br/>
-                <TextTranslation textName="ClassInfo-TopBar-Number.1"/> : 42<br/>
-                <TextTranslation textName="ClassInfo-TopBar-Type.1"/>  : chuyên Toán
+                <TextTranslation textName="ClassInfo-TopBar-Teacher.1"/>  : Do Thanh Son<br/>
+                <TextTranslation textName="ClassInfo-TopBar-Number.1"/> : 41<br/>
+                <TextTranslation textName="ClassInfo-TopBar-Type.1"/>  : Math master
             </div>
 
             <div id="classinfo-subjects">

@@ -159,6 +159,9 @@
   "ClassInfo-Table-Description": {
     "1": "Mô tả"
   },
+  "ClassInfo-Table-NewClass": {
+    "1": "Tạo lớp học mới"
+  },
   "ClassInfo-Table-SelectClass": {
     "1": "Chọn lớp"
   },

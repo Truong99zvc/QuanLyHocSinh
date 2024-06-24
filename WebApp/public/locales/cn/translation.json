@@ -154,6 +154,9 @@
   "ClassInfo-Table-Description": {
     "1": "描述"
   },
+  "ClassInfo-Table-NewClass": {
+    "1": "创建一个新类"
+  },
   "ClassInfo-Table-SelectClass": {
     "1": "选择班级"
   },

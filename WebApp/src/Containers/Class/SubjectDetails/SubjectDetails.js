@@ -11,6 +11,46 @@ import './SubjectDetails.css';
 
 import { useHttpClient } from '../../../Hooks/http-hook';
 
+const StudentScoresTable = (props) => {
+    const [classDetailsData, setClassDetailsData] = useState([{}]);
+    const [tableData, setTableData] = useState([]);
+    const [tableEditable, setTableEditable] = useState(false);
+  
+    const [listOfChangedRows, setListOfChangedRows] = useState({});
+  
+    const { sendRequest } = useHttpClient();
+  
+    // This is a mock function, replace it with your actual function to fetch data
+    const fetchData = async () => {
+      let urlRequest = `${SConfig.SERVER_URL}${SConfig.SERVER_PORT}${SConfig.ClassRoutes.GetTranscripts}`;
+      const response = await sendRequest(urlRequest, 'GET');
+      return response.data;
+    };
+  
+    // Fetch data when component mounts
+    useEffect(() => {
+      const getData = async () => {
+        const data = await fetchData();
+        setTableData(data);
+      };
+  
+      getData();
+    }, []);
+  
+    const sleeper = (ms) => {
+      return function (x) {
+        return new Promise((resolve) => setTimeout(() => resolve(x), ms));
+      };
+    };
+  
+    const updateScore = (payload) => {
+      let urlRequest = `${SConfig.SERVER_URL}${SConfig.SERVER_PORT}${SConfig.ClassRoutes.UpdateTranscripts}`;
+      // ... rest of your code
+    };
+  
+    // ... rest of your code
+  };
+
 const SubjectDetails = (props) => {
 
     const [subjectDetails, setSubjectDetails] = useState({

@@ -1,63 +1,45 @@
-# [SE104][web_link] - STUDENT MANAGEMENT WEBSITE
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: 5;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
 
-Student management website with beautiful interface and outstanding features easy to use in any school system
-
-[![Version](https://img.shields.io/badge/version-0.0.1-brightgreen)][web_link]
-[![Contributors](https://img.shields.io/badge/contributors-6-blue)][web_link]
-
-## Target users ##
-- Teachers, educational administrators, education centers, schools, ...
-
-## Features ##
-- Simple interface easy to access
-- Ensure privacy:
-	- End-to-end encryption
-	- Transmission encryption
-- Multi-language support (English, Vietnamese, Chinese)
+<!-- Title -->
+<h1 align="center"><b>SE104.O29 - NHẬP MÔN CÔNG NGHỆ PHẦM MỀM</b></h1>
 
 
-## Development team ##
-- Nguyễn Lê Bách - 18520480 - nlebachnlb.develop@gmail.com
-- Lê Ngọc Chính - 18520257 - ngocchinhlqd@gmail.com
-- Tân Hữu Toàn - 18520383 - toantanqn@gmail.com
-- Nguyễn Chí Thành - 18520360
-- Nguyễn Thị Quỳnh Ngân - 18520318
-- Nguyễn Nhật Long - 18520304 - nhatlongcode@gmail.com
 
-## Langs & Platforms ##
-- Nodejs (Server-side)
-- Reactjs + Redux (Client-side)
+## MỤC LỤC
+* [ Giới thiệu bản thân](#gioithieubanthan)
+* [ Giới thiệu môn học](#gioithieumonhoc)
+* [ Giảng viên hướng dẫn](#giangvien)
+* [ Thành viên nhóm](#thanhvien)
+* [ Đồ án môn học](#doan)
 
-## Demo ##
-![review-home.png][review-home.png]
+## GIỚI THIỆU BẢN THÂN
+<a name="gioithieubanthan"></a>
+* **Họ và tên**: Trương Phúc Trường
+* **MSSV**: 22521587
+* **Khoa**: Khoa học Máy tính
 
-![review-profile.png][review-profile.png]
+## GIỚI THIỆU MÔN HỌC
+<a name="gioithieumonhoc"></a>
+* **Tên môn học**: Nhập môn công nghệ phần mềm
+* **Mã môn học**: SE104
+* **Mã lớp học**: SE104.O29
+* **Năm học**: 2023-2024 (HK2), 19/02/2024 - 08/06/2024
 
-![review-schedule.png][review-schedule.png]
+## GIẢNG VIÊN HƯỚNG DẪN
+<a name="giangvien"></a>
+* ThS. **Đỗ Văn Tiến** - *tiendv@uit.edu.vn*
 
-![review-settings.png][review-settings.png]
+## THÀNH VIÊN NHÓM
+<a name="thanhvien"></a>
+| STT    | MSSV          | Họ và Tên              | Github                                               | Email                   |
+| ------ |:-------------:| ----------------------:|-----------------------------------------------------:|-------------------------:
+| 1      | 22521571      | Võ Đình Trung          | https://github.com/votrung654                             |22521571@gm.uit.edu.vn  |
+| 2      | 22521587      | Trương Phúc Trường     | https://github.com/Truong99zvc                           |22521587@gm.uit.edu.vn  |
+| 3      | 21522551      | Đỗ Thanh Sơn           | https://github.com/Theon910                        |21522551@gm.uit.edu.vn  |
 
-![review-student-management.png][review-student-management.png]
-
-![review-create-new-student.png][review-create-new-student.png]
-
-![review-class-subject-scores.png][review-class-subject-scores.png]
-
-![review-students-report.png][review-students-report.png]
-
-![review-subjects-report.png][review-subjects-report.png]
-
-
-[//]: # (LINKS)
-[web_link]: https://github.com/kunbr0/SE104
-
-
-[review-class-subject-scores.png]: 	/Documents/review-class-subject-scores.png  	"review-class-subject-scores.png"
-[review-create-new-student.png]: 	/Documents/review-create-new-student.png  		"review-create-new-student.png"
-[review-home.png]: 					/Documents/review-home.png  					"review-home.png"
-[review-profile.png]: 				/Documents/review-profile.png  					"review-profile.png"
-[review-schedule.png]: 				/Documents/review-schedule.png  				"review-schedule.png"
-[review-settings.png]: 				/Documents/review-settings.png			  		"review-settings.png"
-[review-student-management.png]: 	/Documents/review-student-management.png  		"review-student-management.png"
-[review-students-report.png]: 		/Documents/review-students-report.png  			"review-students-report.png"
-[review-subjects-report.png]: 		/Documents/review-subjects-report.png  			"review-subjects-report.png"
+## ĐỒ ÁN MÔN HỌC
+<a name="doan"></a>

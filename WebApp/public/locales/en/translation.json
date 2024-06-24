@@ -162,6 +162,9 @@
   "ClassInfo-Table-Description": {
     "1": "Description"
   },
+  "ClassInfo-Table-NewClass": {
+    "1": "Create a new class"
+  },
   "ClassInfo-Table-SelectClass": {
     "1": "Select class"
   },

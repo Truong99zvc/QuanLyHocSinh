@@ -104,10 +104,10 @@ function getTeacher(id_user)
     return query;
 }
 
-function insertClass(id_class, name_class, grade, session)
+function insertClass(id, name, grade, _year)
 {
     let query = queryJSON.INSERT_CLASS + 
-        `('${id_class}', '${name_class}', ${grade}, ${session});`
+        `('${id}', '${name}', ${grade}, ${_year});`
     console.log(query);
     return query;
 }

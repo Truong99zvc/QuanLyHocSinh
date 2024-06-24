@@ -18,6 +18,8 @@ import StudentDetails from "./StudentDetails/StudentDetails";
 import TextTranslation from "../../Components/TextTranslation/TextTranslation";
 import { useHttpClient } from "../../Hooks/http-hook";
 
+import AddNewClass from '../../Components/AddNewClass/AddNewClass';
+
 const ClassDetails = (props) => {
   console.log(props.match.params.classCode);
 
@@ -146,7 +148,7 @@ const ClassDetails = (props) => {
   };
 
   return (
-    <div className="site-card-wrapper">
+    <>
       <Collapse
         bordered={false}
         defaultActiveKey={["1"]}
@@ -161,6 +163,12 @@ const ClassDetails = (props) => {
           key="1"
           className="site-collapse-custom-panel"
         >
+          <AddNewClass
+            classData={props.classData}
+            yearid={props.yearid}
+            setClassData={props.setClassData}
+            style={{ marginBottom: "15px" }}
+          />
           <Row gutter={16}>
             <Col span={8}>
               <Card
@@ -286,7 +294,7 @@ const ClassDetails = (props) => {
           isLoading={isFetchingClassDetailsData}
         />
       )}
-    </div>
+    </>
   );
 };
 

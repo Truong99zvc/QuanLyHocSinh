@@ -16,13 +16,13 @@ const Profile = () => {
           label={<TextTranslation textName="ClassInfo-Table-UserID.1" />}
           span={2}
         >
-          trungnv
+          sondt
         </Descriptions.Item>
         <Descriptions.Item
           label={<TextTranslation textName="ClassInfo-Table-Name.1" />}
           span={4}
         >
-          Nguyen Van Trung
+          Do Thanh Son
         </Descriptions.Item>
         <Descriptions.Item
           label={<TextTranslation textName="ClassInfo-Table-Status.1" />}
@@ -38,33 +38,33 @@ const Profile = () => {
           label={<TextTranslation textName="ClassInfo-Table-Faculty.1" />}
           span={4}
         >
-          Software Engineering
+          Embedded Software Engineering
         </Descriptions.Item>
 
         <Descriptions.Item
           label={<TextTranslation textName="ClassInfo-Table-Email.1" />}
           span={4}
         >
-          trungnv@uit.edu.vn
+          sondt@uit.edu.vn
         </Descriptions.Item>
         <Descriptions.Item
           label={<TextTranslation textName="ClassInfo-Table-NationalID.1" />}
           span={2}
         >
-          07920128123
+          0338131453
         </Descriptions.Item>
 
         <Descriptions.Item
           label={<TextTranslation textName="ClassInfo-Table-Address.1" />}
           span={6}
         >
-          173/22 Nguyen Thi Minh Khai, P6, Q3, TP.HCM
+          45 Đường Đ. Vành Đai, Đông Hoà, Dĩ An, Bình Dương, Việt Nam
         </Descriptions.Item>
         <Descriptions.Item
           label={<TextTranslation textName="ClassInfo-Table-DateOfBirth.1" />}
           span={2}
         >
-          17/08/1972
+          09/10/2003
         </Descriptions.Item>
         <Descriptions.Item
           label={<TextTranslation textName="ClassInfo-Table-Sex.1" />}

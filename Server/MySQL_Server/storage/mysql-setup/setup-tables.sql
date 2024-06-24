@@ -5,18 +5,19 @@ CREATE TABLE sm_student
 	gender int,
 	dob DATETIME,
 	address VARCHAR(100),
-	email VARCHAR(20)
+	email VARCHAR(50)
 );
 
 CREATE TABLE sm_teacher
 (
 	id VARCHAR(10) PRIMARY KEY,
-	username VARCHAR(50),
-	password VARCHAR(50),
+	password VARCHAR(255),
+    username VARCHAR(50),
+	name VARCHAR(50),
 	gender int,
 	dob DATETIME,
 	address VARCHAR(100),
-	email VARCHAR(20),
+	email VARCHAR(50),
 	phone varchar(15)
 );
 
@@ -77,8 +78,8 @@ CREATE TABLE sm_transcript
 	student_code varchar(10),
 	semester int,
 	_subject int,
-	exam_1 int,
-	exam_2 int
+	exam_1 float,
+	exam_2 float
 );
 
 
